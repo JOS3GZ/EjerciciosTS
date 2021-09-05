@@ -11,3 +11,4 @@ var MarcasDeAutos;
 })(MarcasDeAutos || (MarcasDeAutos = {}));
 var tacoma = MarcasDeAutos.Toyota;
 console.log(tacoma);
+console.log(MarcasDeAutos[0]);
