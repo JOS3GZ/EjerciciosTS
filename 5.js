@@ -2,8 +2,17 @@
     console.log("Hola Mundo Cruel");
 }
 
-saludar2();*/
-function saludar3(nombre) {
-    console.log("Hola " + nombre);
+saludar2();
+
+function saludar3(nombre: string){
+    console.log(`Hola ${nombre}`);
 }
-saludar3("Nubia");
+
+saludar3("Nubia");*/
+function saludar4(fn) {
+    fn("Hola Mundo");
+}
+function imprimirConsola(s) {
+    console.log(s);
+}
+saludar4(imprimirConsola);
